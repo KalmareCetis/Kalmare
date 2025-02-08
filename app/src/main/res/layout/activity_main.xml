@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bae2f5"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Bienvenido a Kalmare"
+        android:textStyle="italic"
+        android:fontFamily="times"
+        android:textAlignment="center"
+        android:textColor="#1f82b1"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#69bce3" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="¿Qué deseas hacer hoy?"
+                android:textAlignment="center"
+                android:textColor="#1f82b1"
+                android:textSize="25sp"
+                android:fontFamily="times"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.467"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.085" />
+
+
+            <ImageButton
+                android:id="@+id/respira"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/breathe"
+                android:background="#bae2f5"
+                android:padding="10dp"
+                android:onClick="resp"
+                />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Necesito relajarme"
+                android:textAlignment="center"
+                android:textColor="#1f82b1"
+                android:textSize="18sp"
+                android:fontFamily="times"/>
+
+
+            <ImageButton
+                android:id="@+id/informa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#bae2f5"
+                app:srcCompat="@drawable/info"
+                android:padding="15dp"
+                android:onClick="inf"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conocer más sobre la ansiedad"
+                android:textAlignment="center"
+                android:textColor="#1f82b1"
+                android:textSize="18sp"
+                android:fontFamily="times"/>
+
+            <ImageButton
+                android:id="@+id/music"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#bae2f5"
+                android:onClick="music"
+                android:padding="10dp"
+                app:srcCompat="@drawable/music" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Escucha algo de música"
+                android:textAlignment="center"
+                android:textColor="#1f82b1"
+                android:textSize="18sp"
+                android:fontFamily="times"
+                />
+
+            <ImageButton
+                android:id="@+id/milo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#bae2f5"
+                android:onClick="cat"
+                android:padding="15dp"
+                app:srcCompat="@drawable/paw" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Juega con Milo"
+                android:textAlignment="center"
+                android:textColor="#1f82b1"
+                android:textSize="18sp"
+                android:fontFamily="times"
+                android:paddingBottom="20dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

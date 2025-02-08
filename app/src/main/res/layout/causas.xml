@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Causas"
+    android:background="@color/base"
+    android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="¿Qué causas puede tener el Transtorno de Ansiedad Generalizada (TAG)?"
+                android:textStyle="italic"
+                android:fontFamily="times"
+                android:textAlignment="center"
+                android:textColor="#1f82b1"
+                android:textSize="40sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.467"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.085" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#69bce3" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El TAG puede afectar a prácticamente cualquier persona, pero algunos factores que pueden aumentar la probabilidad de experimentarlo son:"
+                android:textAlignment="center"
+                android:textColor="@color/texto"
+                android:textSize="25sp"
+                android:fontFamily="times"
+                android:padding="15dp"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/texto"
+                android:textSize="22sp"
+                android:fontFamily="times"
+                android:padding="10dp"
+                android:text="Estrés:   Situaciones de estrés prolongado, como problemas laborales, familiares o un ambiente hostil, incrementan el riesgo de desarrollarlo" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/texto"
+                android:textSize="22sp"
+                android:fontFamily="times"
+                android:padding="10dp"
+                android:text="Genética:     El TAG puede ser hereditario, por lo que personas con antecedentes familiares de ansiedad podrían tener mayor predisposición a padecerlo." />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/texto"
+                android:textSize="22sp"
+                android:fontFamily="times"
+                android:padding="10dp"
+                android:text="Factores ambientales:     Experiencias traumáticas o entornos inestables durante el desarrollo pueden incrementar el riesgo de desarrollar TAG." />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/texto"
+                android:textSize="22sp"
+                android:fontFamily="times"
+                android:padding="10dp"
+                android:text="Función y química del cerebro:    Diferencias en los neurotransmisores que regulan la respuesta al estrés pueden estar asociadas con el TAG." />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atras"
+                android:onClick="vuelve"
+                android:paddingTop="35dp"/>
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Volver"
+                android:textAlignment="center"
+                android:textColor="#1f82b1"
+                android:textSize="18sp"
+                android:fontFamily="times"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

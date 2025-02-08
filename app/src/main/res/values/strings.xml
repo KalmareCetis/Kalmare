@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Kalmare</string>
+
+    <string-array name="cinco">
+        <item>5 Cosas que puedas ver</item>
+        <item>4 Cosas que puedas tocar</item>
+        <item>3 Cosas que puedas oír</item>
+        <item>2 Olores que haya a tu alrededor</item>
+        <item>1 Cosa que puedas saborear</item>
+        <item>Respira</item>
+        <item>¿Quieres intentarlo otra vez?</item>
+    </string-array>
+
+    <string-array name="mind">
+        <item>Busca un lugar tranquilo y sin mucho ruido</item>
+        <item>Siéntate y mantén la espalda recta</item>
+        <item>Respira profundamente, inhala por la nariz y exhala por la boca</item>
+        <item>Céntrate en las sensaciones de tu cuerpo. El ritmo de tu respiración, cómo se siente tu piel y el pulso en tu cuello</item>
+        <item>Medita sobre las experiencias que te afectaron y vuelve a controlar tu respiración</item>
+        <item>Respira</item>
+        <item>¿Quieres intentarlo otra vez?</item>
+    </string-array>
+</resources>

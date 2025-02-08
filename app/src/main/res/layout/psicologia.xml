@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Psicologia"
+
+    android:background="@drawable/blue"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="La psicología en Kalmare"
+        android:textStyle="italic"
+        android:fontFamily="times"
+        android:textAlignment="center"
+        android:textColor="#05244f"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="¿Por qué se escogieron tonos azulados y claros para Kalmare?"
+                android:textAlignment="center"
+                android:textColor="#05244f"
+                android:textSize="22sp"
+                android:fontFamily="times"
+                android:padding="20dp"/>
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#05244f"
+                android:textSize="18sp"
+                android:fontFamily="times"
+                android:padding="15dp"
+                android:text="El azul es el color del espacio, de la lejanía y del infinito. En publicidad se le relaciona
+con la limpieza y la frescura. Es un color que simboliza ideas de tranquilidad, afecto e inteligencia." />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#05244f"
+                android:textSize="18sp"
+                android:fontFamily="times"
+                android:padding="15dp"
+                android:text="Mientras que el blanco generalmente tiene lecturas positivas como la pureza, la limpieza, la paz y la virtud." />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#05244f"
+                android:textSize="18sp"
+                android:fontFamily="times"
+                android:padding="15dp"
+                android:text="El objetivo final era proveerle al usuario una interfaz que le haga sentir cómodo, en paz, y que le pueda brindar tranquilidad." />
+
+            <ImageView
+                android:paddingTop="35dp"
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/atras"
+                android:onClick="vuelve"/>
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Volver"
+                android:textAlignment="center"
+                android:textColor="#05244f"
+                android:textSize="18sp"
+                android:fontFamily="times"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
